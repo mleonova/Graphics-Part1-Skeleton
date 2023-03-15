@@ -1,0 +1,3 @@
+C:\Users\marga\Documents\Visual Studio 2019\cse169\169_Starter\Release\project1.exe
+C:\Users\marga\Downloads\169_Starter\Release\project1.exe
+C:\Users\marga\Downloads\Computer-Animation-Skeleton\Release\project1.exe

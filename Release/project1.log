@@ -1,0 +1,14 @@
+﻿  Camera.cpp
+  Cube.cpp
+  Joint.cpp
+C:\Users\marga\Downloads\Computer-Animation-Skeleton\Joint.cpp(124,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marga\Downloads\Computer-Animation-Skeleton\Joint.cpp(133,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\marga\Downloads\Computer-Animation-Skeleton\main.cpp(59,6): warning C4101: 'input': unreferenced local variable
+  Skeleton.cpp
+  shader.cpp
+  Tokenizer.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  project1.vcxproj -> C:\Users\marga\Downloads\Computer-Animation-Skeleton\Release\project1.exe
