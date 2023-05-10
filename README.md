@@ -1,6 +1,6 @@
 # Animation Project: Skeleton
 
-This is the first part of the computer animation project, followed by two additional parts: [Skinning](https://github.com/mleonova/Animation-Skeleton) and Animation. 
+This is the first part of the computer animation project, followed by two additional parts: [Skinning](https://github.com/mleonova/Animation-Skeleton) and [Animation](https://github.com/mleonova/Graphics-Part3-Animation). 
 
 ## Demo
 
