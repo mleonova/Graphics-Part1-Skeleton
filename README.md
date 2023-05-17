@@ -1,8 +1,9 @@
 # Animation Project: Skeleton
 
-> This computer animation project consists of three parts: [Part1: Skeleton](https://github.com/mleonova/Graphics-Part1-Skeleton) 
-> [Part 2: Skinning](https://github.com/mleonova/Graphics-Part2-Skinning) 
-> [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
+This computer animation project consists of three parts: 
+[Part1: Skeleton](https://github.com/mleonova/Graphics-Part1-Skeleton) 
+[Part 2: Skinning](https://github.com/mleonova/Graphics-Part2-Skinning) 
+[Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
 
 The main objectives of this part are:
