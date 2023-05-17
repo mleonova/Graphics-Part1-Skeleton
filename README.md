@@ -8,9 +8,8 @@
 > 
 > [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
-
-
-The main objectives of this part are:
+---
+The main objectives of Part 1 are:
 
 1. Loading and parsing a text file (.skel) that describes the skeleton of an object.
 2. Posing and displaying the skeleton.
