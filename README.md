@@ -1,17 +1,22 @@
 # Animation Project: Skeleton
 
-This is the first part of the computer animation project, followed by two additional parts: [Skinning](https://github.com/mleonova/Animation-Skeleton) and [Animation](https://github.com/mleonova/Graphics-Part3-Animation). 
+> This computer animation project consists of three parts:
+> [Part1: Skeleton](https://github.com/mleonova/Graphics-Part1-Skeleton)
+> [Part 2: Skinning](https://github.com/mleonova/Graphics-Part2-Skinning)
+> [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
-The main purpose of this part is:
-1. Load and parse a text file (.skel) which describes a skeleton. 
-2. Pose and display the skeleton
+
+The main objectives of this part are:
+
+1. Loading and parsing a text file (.skel) that describes the skeleton of an object.
+2. Posing and displaying the skeleton.
 
 ## Background
 In computer animation, a skeleton, also known as a rig, is a hierarchical structure of bones or joints that is used to control the movement of characters or objects. It serves as a virtual framework upon which the model or mesh is built, allowing animators to manipulate and animate the character more easily.
 
 A skeleton is organized in a hierarchical manner, resembling the structure of a human skeleton. It consists of a root bone (typically located at the character's hip or base) and a series of interconnected bones that extend outwards, forming a tree-like structure. Each bone is connected to its parent bone, except for the root bone, which is at the top of the hierarchy.
 
-Example:
+If we're to create skeleton file of Olaf, the aproximate hierarchy would look following:
 ![Skeleton diagram](Skeleton_diagram.png)
 
 ## Skeleton file
