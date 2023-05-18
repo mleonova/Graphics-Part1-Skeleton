@@ -8,18 +8,24 @@ This computer animation project consists of three parts:
  
 [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
-
+## Objectives
 The main objectives of Part 1 are:
 
 1. Loading and parsing a text file (.skel) that describes the skeleton of an object.
 2. Posing and displaying the skeleton.
 
 ## Background
-In computer animation, a skeleton, also known as a rig, is a hierarchical structure of bones or joints that is used to control the movement of characters or objects. It serves as a virtual framework upon which the model or mesh is built, allowing animators to manipulate and animate the character more easily.
+In computer animation, a skeleton, also known as a rig, acts as an invisible framework that supports and controls the movement of characters or objects. It resembles a tree-like structure, with interconnected joints forming a hierarchy.
 
-A skeleton is organized in a hierarchical manner, resembling the structure of a human skeleton. It consists of a root bone (typically located at the character's hip or base) and a series of interconnected bones that extend outwards, forming a tree-like structure. Each bone is connected to its parent bone, except for the root bone, which is at the top of the hierarchy.
+The skeleton starts with a root joint located at the character's hip or base. From there, additional joints branch out, creating a network of connections.
 
-If we're to create skeleton file of Olaf, the aproximate hierarchy would look following:
+Joints function as pivotal points, much like the joints in our own bodies. They provide the ability to move and flex, allowing animators to manipulate and animate characters with ease. By adjusting the position, rotation, and size of these joints, a wide range of poses and movements can be achieved.
+
+Each joint possesses what we call "degrees of freedom." This refers to the various directions in which a joint can move within certain limits. For instance, some joints, like ball-and-socket joints, allow for free rotation in multiple directions, while others, like hinge joints, only allow movement along a single axis.
+
+These joints are organized hierarchically, meaning that the movement of a parent joint affects the movement of its child joints. This hierarchical structure ensures coordinated and realistic motion throughout the character or object.
+
+If we were to create a skeleton file for Olaf, the approximate hierarchy would look as follows:
 ![Skeleton diagram](Skeleton_diagram.png)
 
 ## Skeleton file
