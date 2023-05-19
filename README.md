@@ -30,8 +30,22 @@ For instance, if we were to create a skeleton file for Olaf, the approximate hie
 
 ## Skeleton file
 
-![Skeleton file](skeleton_file.png)
+Below is snippet of the .skel file. 
 
+offset x y z (joint offset vector)
+> In animation, the "offset" in a skeleton file refers to the initial position and orientation of a joint relative to its parent joint. It determines how a joint is positioned and rotated when the animation begins.
+
+For example, in a character's arm, the offset values define the initial position and rotation of the elbow joint relative to the shoulder joint. Similarly, the offset of the wrist joint determines its initial position and rotation relative to the elbow joint.
+
+boxmin x y z (min corner of box to draw)
+boxmax x y z (max corner of box to draw)
+rotxlimit min max (x rotation DOF limits)
+rotylimit min max (y rotation DOF limits)
+rotzlimit min max (z rotation DOF limits)
+pose x y z (values to pose DOFs)
+balljoint name { } (child joint)
+
+![Skeleton file](skeleton_file.png)
 
 
 ## Demo
