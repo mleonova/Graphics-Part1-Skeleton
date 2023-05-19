@@ -34,6 +34,7 @@ Below is a sample skeleton file:
 
 ```
 Sample .skel file
+
 balljoint root {
          [data for root]
          balljoint torso {
@@ -47,6 +48,50 @@ balljoint root {
          [more children of root]
          }
  ```
+ 
+ ```
+ balljoint root {
+  offset     0.000000     0.000000     0.000000
+  pose       0.000000     0.000000     0.000000
+  boxmin -0.2 -0.3 -0.3
+  boxmax 0.2 0.2 0.3
+  balljoint head {
+    offset     0.000000     0.000000    -0.400000
+    pose       0.000000     0.000000     0.000000
+    boxmin -0.2 -0.4 -0.4
+    boxmax 0.2 0.1 0.0
+  }
+  balljoint abdomen {
+    offset     0.000000    -0.200000     0.400000
+    pose       0.000000     0.000000     0.000000
+	boxmin -0.1 -0.1 -0.1
+	boxmax 0.1 0.1 0.1
+    balljoint tail_01 {
+      offset     0.000000     0.400000     0.250000
+      pose       0.000000     0.000000     0.000000
+	  boxmin -0.3 -0.5 -0.1
+	  boxmax 0.3 0.1 0.2
+      balljoint tail_02 {
+        offset     0.000000     0.000000     0.400000
+        pose       0.000000     0.000000     0.000000
+		boxmin -0.3 -0.7 -0.1
+		boxmax 0.3 0.1 0.1
+        balljoint tail_03 {
+          offset     0.000000    -0.200000     0.250000
+          pose       0.000000     0.000000     0.000000
+		  boxmin -0.25 -0.6 -0.1
+		  boxmax 0.25 0.2 0.1
+          balljoint tail_04 {
+            offset     0.000000    -0.300000     0.200000
+            pose       0.000000     0.000000     0.000000
+			boxmin -0.1 -0.4 -0.1
+			boxmax 0.1 0.1 0.1
+          }
+        }
+      }
+    }
+  }
+  ```
 
 And here is the snippet of a .skel file that was used for this project:
 ![Skeleton file](skeleton_file.png)
