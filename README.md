@@ -25,12 +25,12 @@ Each joint possesses what we call "degrees of freedom." This refers to the vario
 
 The hierarchical structure of the skeleton, where the movement of a parent joint influences the movement of its child joints, ensures that motion is coordinated and realistic across the character or object. In simpler terms, it means that when one joint moves, it affects the movement of the joints connected to it, creating a natural and harmonious animation.
 
-If we were to create a skeleton file for Olaf, the approximate hierarchy would look as follows:
+For instance, if we were to create a skeleton file for Olaf, the approximate hierarchy would look as follows:
 ![Skeleton diagram](Skeleton_diagram.png)
 
 ## Skeleton file
 
-
+![Skeleton file](Skeleton_file.png)
 
 
 
