@@ -73,28 +73,28 @@ balljoint root {
 	  	    balljoint tail_01 {
 	  	      	      offset     0.000000     0.400000     0.250000
 	  	      	      pose       0.000000     0.000000     0.000000
-	  		      boxmin -0.3 -0.5 -0.1
-	  		      boxmax 0.3 0.1 0.2
-	  		      balljoint tail_02 {
-	  			        offset     0.000000     0.000000     0.400000
-	  			        pose       0.000000     0.000000     0.000000
-	  			        boxmin -0.3 -0.7 -0.1
-	  			        boxmax 0.3 0.1 0.1
-	  			        balljoint tail_03 {
-	  			      	          offset     0.000000    -0.200000     0.250000
-	  			                  pose       0.000000     0.000000     0.000000
-	  			      	          boxmin -0.25 -0.6 -0.1
-	  			      	          boxmax 0.25 0.2 0.1
-	  		  	      	          balljoint tail_04 {
-	  		                                    offset     0.000000    -0.300000     0.200000
-	  		      			            pose       0.000000     0.000000     0.000000
-	  		      			            boxmin -0.1 -0.4 -0.1
-	  		      			            boxmax 0.1 0.1 0.1
-	  		  		          }
-          			        }
+	  	    	      boxmin -0.3 -0.5 -0.1
+	  	    	      boxmax 0.3 0.1 0.2
+	  	    	      balljoint tail_02 {
+	  	    	      	        offset     0.000000     0.000000     0.400000
+	  	    	      	        pose       0.000000     0.000000     0.000000
+	  	    	      	        boxmin -0.3 -0.7 -0.1
+	  	    	      	        boxmax 0.3 0.1 0.1
+	  	    	      	        balljoint tail_03 {
+	  	    	      	      	          offset     0.000000    -0.200000     0.250000
+	  	    	      	                  pose       0.000000     0.000000     0.000000
+	  	    	      	      	          boxmin -0.25 -0.6 -0.1
+	  	    	      	      	          boxmax 0.25 0.2 0.1
+	  	    	      	      	          balljoint tail_04 {
+	  	    	                                    offset     0.000000    -0.300000     0.200000
+	  	    	      			            pose       0.000000     0.000000     0.000000
+	  	    	      			            boxmin -0.1 -0.4 -0.1
+	  	    	      			            boxmax 0.1 0.1 0.1
+	  	    	      		          }
+          	    	      	        }
       	  	              }
-    	          }
-      }
+    	            }
+         }
       
   ...
   ```
