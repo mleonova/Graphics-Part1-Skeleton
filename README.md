@@ -32,7 +32,7 @@ For instance, if we were to create a skeleton file for Olaf, the approximate hie
 
 Below is a snippet of the .skel file with explanation. 
 
-### offset x y z (joint offset vector)
+### ```offset x y z (joint offset vector)```
 In animation, the "offset" in a skeleton file refers to the initial position and orientation of a joint relative to its parent joint. It determines how a joint is positioned and rotated when the animation begins.
 
 For example, in a character's arm, the offset values define the initial position and rotation of the elbow joint relative to the shoulder joint. Similarly, the offset of the wrist joint determines its initial position and rotation relative to the elbow joint.
