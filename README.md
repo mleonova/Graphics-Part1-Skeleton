@@ -65,6 +65,21 @@ In a skeleton file for animation, a "balljoint" refers to a type of joint that a
 For example, let's consider a character's arm. If the shoulder joint is defined as a balljoint in the skeleton file, it signifies that the shoulder can rotate freely, acting as the parent joint. The child joints, such as the elbow and wrist, are connected to the shoulder joint, inheriting its rotational movement.
 
 
+```
+balljoint root {
+         [data for root]
+         balljoint torso {
+                  [data for torso]
+                  [children of torso]
+         }
+         balljoint pelvis {
+                  [data for pelvis]
+                  [children of pelvis]
+         }
+         [more children of root]
+         }
+ ```
+
 ![Skeleton file](skeleton_file.png)
 
 
