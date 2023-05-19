@@ -32,18 +32,18 @@ For instance, if we were to create a skeleton file for Olaf, the approximate hie
 
 Below is a snippet of the .skel file with explanation. 
 
-### ```offset x y z (joint offset vector)```
+#### ```offset x y z (joint offset vector)```
 In animation, the "offset" in a skeleton file refers to the initial position and orientation of a joint relative to its parent joint. It determines how a joint is positioned and rotated when the animation begins.
 
 For example, in a character's arm, the offset values define the initial position and rotation of the elbow joint relative to the shoulder joint. Similarly, the offset of the wrist joint determines its initial position and rotation relative to the elbow joint.
 
-### boxmin x y z (min corner of box to draw) and boxmax x y z (max corner of box to draw)
+#### ```boxmin x y z (min corner of box to draw)``` and ```boxmax x y z (max corner of box to draw)```
 
 In animation, "boxmin" and "boxmax" in a skeleton file represent the minimum and maximum coordinates of a bounding box that encloses specific joints or joint collections within a character model. These values define the spatial boundaries for proper positioning and size during animations.
 
 For example, let's consider a character's hand. The boxmin and boxmax values in the skeleton file would define the minimum and maximum coordinates of a bounding box that encapsulates the hand joints. This bounding box helps determine the spatial boundaries of the hand's position and size. By specifying the boxmin and boxmax values accurately, animators can ensure that the character's hand remains within the designated bounding box during animations. It helps maintain the proper spatial constraints and prevent any unwanted intersections or penetrations between different parts of the character model.
 
-### rotxlimit min max (x rotation DOF limits) and rotylimit min max (y rotation DOF limits) and rotzlimit min max (z rotation DOF limits)
+#### ```rotxlimit min max (x rotation DOF limits)``` and ```rotylimit min max (y rotation DOF limits)``` and ```rotzlimit min max (z rotation DOF limits)``
 
 In a skeleton file for animation, "rotxlimit," "rotylimit," and "rotzlimit" define the rotational limits or constraints for a joint's movement around the X, Y, and Z axes respectively.
 
@@ -51,13 +51,13 @@ For example, let's consider a character's leg joint. The rotxlimit value would s
 
 Similarly, the rotylimit value would define the rotational constraints around the Y-axis, limiting the sideways movement of the leg joint. The rotzlimit value would constrain the rotation around the Z-axis, controlling any twisting motion.
 
-### pose x y z (values to pose DOFs)
+#### ```pose x y z (values to pose DOFs)```
 
 In a skeleton file for animation, a "pose" refers to the specific configuration or arrangement of the joints in the skeleton at a given moment. It defines the position and rotation of each joint, capturing a snapshot of the character's posture or stance.
 
 For example, let's consider a character's walking animation. Each frame of the animation would have a corresponding pose defined in the skeleton file. The pose would specify the position and orientation of the character's joints, such as the position of the legs, arms, and head at that particular frame.
 
-### balljoint name { } (child joint)
+#### ```balljoint name { } (child joint)```
 
 
 In a skeleton file for animation, a "balljoint" refers to a type of joint that allows rotational movement in multiple directions, similar to a ball-and-socket joint in our own bodies. This joint is often used to establish a parent-child relationship between joints in the skeletal hierarchy.
