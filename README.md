@@ -43,7 +43,7 @@ In animation, "boxmin" and "boxmax" in a skeleton file represent the minimum and
 
 For example, let's consider a character's hand. The boxmin and boxmax values in the skeleton file would define the minimum and maximum coordinates of a bounding box that encapsulates the hand joints. This bounding box helps determine the spatial boundaries of the hand's position and size. By specifying the boxmin and boxmax values accurately, animators can ensure that the character's hand remains within the designated bounding box during animations. It helps maintain the proper spatial constraints and prevent any unwanted intersections or penetrations between different parts of the character model.
 
-#### ```rotxlimit min max (x rotation DOF limits)``` and ```rotylimit min max (y rotation DOF limits)``` and ```rotzlimit min max (z rotation DOF limits)``
+#### ```rotxlimit min max (x rotation DOF limits)``` and ```rotylimit min max (y rotation DOF limits)``` and ```rotzlimit min max (z rotation DOF limits)```
 
 In a skeleton file for animation, "rotxlimit," "rotylimit," and "rotzlimit" define the rotational limits or constraints for a joint's movement around the X, Y, and Z axes respectively.
 
