@@ -30,7 +30,7 @@ For instance, if we were to create a skeleton file for Olaf, the approximate hie
 
 ## Skeleton file
 
-![skeleton file](Skeleton_file.png)
+![Skeleton file](skeleton_file.png)
 
 
 
