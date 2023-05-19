@@ -30,7 +30,26 @@ For instance, if we were to create a skeleton file for Olaf, the approximate hie
 
 ## Skeleton file
 
-Below is a snippet of the .skel file with explanation. 
+Below is a sample skeleton file:
+
+```
+Sample .skel file
+balljoint root {
+         [data for root]
+         balljoint torso {
+                  [data for torso]
+                  [children of torso]
+         }
+         balljoint pelvis {
+                  [data for pelvis]
+                  [children of pelvis]
+         }
+         [more children of root]
+         }
+ ```
+
+And here is the snippet of a .skel file that was used for this project:
+![Skeleton file](skeleton_file.png)
 
 #### ```offset x y z (joint offset vector)```
 In animation, the "offset" in a skeleton file refers to the initial position and orientation of a joint relative to its parent joint. It determines how a joint is positioned and rotated when the animation begins.
@@ -63,24 +82,6 @@ For example, let's consider a character's walking animation. Each frame of the a
 In a skeleton file for animation, a "balljoint" refers to a type of joint that allows rotational movement in multiple directions, similar to a ball-and-socket joint in our own bodies. This joint is often used to establish a parent-child relationship between joints in the skeletal hierarchy.
 
 For example, let's consider a character's arm. If the shoulder joint is defined as a balljoint in the skeleton file, it signifies that the shoulder can rotate freely, acting as the parent joint. The child joints, such as the elbow and wrist, are connected to the shoulder joint, inheriting its rotational movement.
-
-
-```
-balljoint root {
-         [data for root]
-         balljoint torso {
-                  [data for torso]
-                  [children of torso]
-         }
-         balljoint pelvis {
-                  [data for pelvis]
-                  [children of pelvis]
-         }
-         [more children of root]
-         }
- ```
-
-![Skeleton file](skeleton_file.png)
 
 
 ## Demo
