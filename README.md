@@ -8,7 +8,7 @@ This computer animation project consists of three parts:
  
 [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
-## Objectives
+## Objectives:
 The main objectives of Part 1 are:
 
 1. Loading and parsing a text file (.skel) that describes the skeleton of an object.
@@ -132,6 +132,20 @@ For example, let's consider a character's walking animation. Each frame of the a
 In a skeleton file for animation, a "balljoint" refers to a type of joint that allows rotational movement in multiple directions, similar to a ball-and-socket joint in our own bodies. This joint is often used to establish a parent-child relationship between joints in the skeletal hierarchy.
 
 For example, let's consider a character's arm. If the shoulder joint is defined as a balljoint in the skeleton file, it signifies that the shoulder can rotate freely, acting as the parent joint. The child joints, such as the elbow and wrist, are connected to the shoulder joint, inheriting its rotational movement.
+
+## The process
+
+When the program loads a .skel file, it processes the joint hierarchy and stores the joint information.
+
+To display the character in 3D space, the program utilizes forward kinematics. This involves computing world space transformation matrices for each joint in the hierarchy. The transformation matrices define the joint's position, orientation, and scale relative to the world coordinate system.
+
+The forward kinematics computations follow the order of rotation specified in the .skel file (x-axis first, then y-axis, and finally z-axis). These rotations are represented as matrices and combined to calculate the final world space transformation matrices for each joint.
+
+The world space matrices are crucial for drawing the character skeleton and for future uses, such as skinning in subsequent projects. They define the character's posture and position, allowing the program to animate and manipulate the character realistically.
+
+Once the world space matrices are computed, the program renders the 3D character skeleton using boxes. The box dimensions are determined by the 'boxmin' and 'boxmax' properties specified in the .skel file. 
+
+The program supports flexibility by accepting any .skel file as input, allowing users to visualize various character skeletons easily.
 
 
 ## Demo
