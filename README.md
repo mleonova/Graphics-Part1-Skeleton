@@ -8,7 +8,7 @@ This computer animation project consists of three parts:
  
 [Part 3: Animation](https://github.com/mleonova/Graphics-Part3-Animation)
 
-## Objectives:
+## Objectives
 The main objectives of Part 1 are:
 
 1. Loading and parsing a text file (.skel) that describes the skeleton of an object.
@@ -133,7 +133,7 @@ In a skeleton file for animation, a "balljoint" refers to a type of joint that a
 
 For example, let's consider a character's arm. If the shoulder joint is defined as a balljoint in the skeleton file, it signifies that the shoulder can rotate freely, acting as the parent joint. The child joints, such as the elbow and wrist, are connected to the shoulder joint, inheriting its rotational movement.
 
-## The process
+## Process
 
 When the program loads a .skel file, it processes the joint hierarchy and stores the joint information.
 
